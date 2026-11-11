@@ -34,6 +34,26 @@ function Exploration() {
               ],
             },
             {
+              icon: <GitBranchPlus size={24} />,
+              title: <>Full-Stack Mindset</>,
+              description: (
+                <>
+                  Realizing front-end alone is not enough, actively sharpening
+                  back-end capabilities to build complete, full-fledged
+                  products.
+                </>
+              ),
+              stacks: [
+                {
+                  value: "https://www.typescriptlang.org",
+                  label: "Typescript",
+                },
+                { value: "https://hono.dev", label: "Hono" },
+                { value: "https://www.postgresql.org", label: "PostgreSQL" },
+                { value: "https://orm.drizzle.team", label: "Drizzle" },
+              ],
+            },
+            {
               icon: <PersonStanding size={24} />,
               title: <>UI/UX Design</>,
               description: (
@@ -59,26 +79,6 @@ function Exploration() {
                   value: "https://www.atlassian.com/software/jira",
                   label: "Jira",
                 },
-              ],
-            },
-            {
-              icon: <GitBranchPlus size={24} />,
-              title: <>Full-Stack Mindset</>,
-              description: (
-                <>
-                  Realizing front-end alone is not enough, actively sharpening
-                  back-end capabilities to build complete, full-fledged
-                  products.
-                </>
-              ),
-              stacks: [
-                {
-                  value: "https://www.typescriptlang.org",
-                  label: "Typescript",
-                },
-                { value: "https://nextjs.org", label: "Next.js" },
-                { value: "https://www.postgresql.org", label: "PostgreSQL" },
-                { value: "https://vercel.com", label: "Vercel" },
               ],
             },
           ].map(({ icon, title, description, stacks }, index, arr) => {
